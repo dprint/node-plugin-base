@@ -14,7 +14,7 @@ export interface CreatePluginFileOptions {
 
 export function createPluginFile(options: CreatePluginFileOptions) {
   return {
-    schemaVersion: 3,
+    schemaVersion: 2,
     kind: "node",
     name: options.name,
     version: options.version,
